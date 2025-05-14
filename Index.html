@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capacitación: La IA aplicada a la educación en colegios</title>
+  <!-- Reveal.js CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/white.min.css">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .reveal .slides section {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+    }
+    .reveal h1, .reveal h2, .reveal h3 {
+      color: #18140491;
+    }
+    .reveal .bg-custom {
+      background: linear-gradient(135deg, #64b5f6, #94bde7);
+      color: white;
+    }
+    .reveal .activity {
+      border: 2px dashed #a9cdf1;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .reveal .notes {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Diapositiva 1: Portada -->
+      <section class="bg-custom">
+        <h1 class="text-5xl font-bold mb-6">La IA aplicada a la educación en colegios</h1>
+        <h3 class="text-2xl">Capacitación para docentes de primaria y secundaria</h3>
+        <p class="text-lg mt-4">Duración: 2 horas | [Nombre de la institución]</p>
+        <p class="text-sm mt-2">Presentador: [Nombre del facilitador]</p>
+        <aside class="notes">
+          Bienvenida: Salude a los docentes y agradezca su tiempo. Explique que aprenderán a usar IA para hacer sus clases más dinámicas y atractivas para niños y adolescentes. Tiempo: 2 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 2: Agenda -->
+      <section>
+        <h2 class="text-4xl mb-6">Agenda de la capacitación</h2>
+        <ul class="text-lg list-disc pl-6">
+          <li>Introducción: ¿Por qué la IA en los colegios? (10 min)</li>
+          <li>Evolución tecnológica y estudiantes actuales (15 min)</li>
+          <li>Aplicaciones de la IA en la enseñanza (20 min)</li>
+          <li>Actividad práctica: Creando un recurso con IA (15 min)</li>
+          <li>Pausa (10 min)</li>
+          <li>Herramientas de IA: Demostraciones (20 min)</li>
+          <li>Desafíos éticos para estudiantes jóvenes (15 min)</li>
+          <li>Estrategias para el aula escolar (10 min)</li>
+          <li>Cierre y reflexión (5 min)</li>
+        </ul>
+        <aside class="notes">
+          Presente la estructura y destaque la actividad práctica. Aclare que habrá tiempo para preguntas y que la capacitación es práctica. Tiempo: 3 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 3: Introducción -->
+      <section>
+        <h2 class="text-4xl mb-6">¿Por qué la IA en los colegios?</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <h3 class="text-2xl">Contexto</h3>
+            <p>Estudiantes son nativos digitales: usan apps y juegos interactivos.</p>
+            <p>La pandemia impulsó clases virtuales y herramientas digitales.</p>
+          </div>
+          <div>
+            <h3 class="text-2xl">Oportunidades</h3>
+            <p>Clases más interactivas: cuentos, juegos, ejercicios personalizados.</p>
+            <p>Ahorro de tiempo en planificación y corrección.</p>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">La IA es una <strong>herramienta</strong> que apoya al docente y motiva a los estudiantes.</p>
+        <aside class="notes">
+          Use una analogía: "La IA es como un asistente que prepara materiales, pero el docente es quien inspira." Pregunte: "¿Qué desafíos tienen para captar la atención de sus estudiantes?" Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 3.1: Introducción -->
+      <section>
+        <h2 class="text-4xl mb-6">En pandemia</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <h3 class="text-2xl">Estrategias</h3>
+            <img src="jp.jpg"/>
+          </div>
+          <div>
+            <h3 class="text-2xl">Oportunidades</h3>
+            <img src="capa.PNG" />
+            <img src="Captura2.PNG" />
+          </div>
+        </div>
+        <p class="mt-4 text-lg">La IA es un <strong>aliado</strong>, no un reemplazo del docente.</p>
+        <aside class="notes">
+          Use ejemplos: Netflix personaliza recomendaciones, la IA puede personalizar aprendizaje. Pregunte: "¿Qué desafíos enfrentan al enseñar hoy?" para conectar con la audiencia. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      
+
+       <!-- Diapositiva 4: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">Antes</h3>
+            <ul class="list-disc pl-6">
+              <li>Pizarrones, libros físicos</li>
+              <li>Clases frontales</li>
+              <li>Tareas repetitivas</li>
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">Ahora</h3>
+            <ul class="list-disc pl-6">
+              <li>IA generativa (ChatGPT, Canva)</li>
+              <li>Clases interactivas y gamificadas</li>
+              <li>Aprendizaje personalizado</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 4.1: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">Antes</h3>
+            <ul class="list-disc pl-6">
+              <img src="ap031.jpg" />
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">Ahora</h3>
+            <ul class="list-disc pl-6">
+               <img src="chat.jpg" />
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+      <!-- Diapositiva 4.2: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">Antes</h3>
+            <ul class="list-disc pl-6">
+              <img src="1946-AVIDAC.jpeg" />
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">Ahora</h3>
+            <ul class="list-disc pl-6">
+               <img src="lenovo.jpg" />
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 4.2: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">Antes</h3>
+            <ul class="list-disc pl-6">
+              <img src="2-7.webp" />
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">Ahora</h3>
+            <ul class="list-disc pl-6">
+               <img src="usb.jpg" />
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 4.2: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">Antes</h3>
+            <ul class="list-disc pl-6">
+              <img src="teletrofono.jpg" />
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">Ahora</h3>
+            <ul class="list-disc pl-6">
+               <img src="reflexangrybirds2.jpg" />
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+
+      <!-- Diapositiva 4.3: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Evolución tecnológica</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl">+ de 5 años</h3>
+            <ul class="list-disc pl-6">
+              <video src="unidos.mp4" autoplay muted loop style="width: auto; height: auto;"></video>
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl">+ de 7 años</h3>
+            <ul class="list-disc pl-6">
+               <img src="BEAJfIA.jpg"/>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 4.2: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Frustración </h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <h3 class="text-2xl"></h3>
+            <ul class="list-disc pl-6">
+              <li>Ponerlos a hacer algo a mano</li>
+              <li>Ponerlos a redactar, sintetizar, abstraer</li>
+              <li>Leer mucho...  pero mucho</li>
+            </ul>
+          </div>
+          <div class="w-1/2">
+            <h3 class="text-2xl"></h3>
+            <ul class="list-disc pl-5">
+              <li>Busque algo por internet, no profe le pregunto a ChatGPT</li>
+              <li>Que ChatGPT me haga la tarea</li>
+              <li>Alexa sube el volumen, Alexa apaga la luz, etc</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 4.2: Evolución tecnológica -->
+      <section>
+        <h2 class="text-4xl mb-6">Casos reales</h2>
+        <div class="flex justify-between">
+          <div class="w-1/2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xvvA2AMSXZc?si=k0_6smgobVqvYgWR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="w-1/2">
+             <img src="cambios.jpg"/>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Los estudiantes de hoy aprenden con videos, apps y juegos. ¡Adaptémonos!</p>
+        <aside class="notes">
+          Muestre imágenes de un pizarrón vs. una tablet. Explique que los estudiantes están acostumbrados a TikTok y YouTube, lo que cambia su forma de aprender. Tiempo: 15 min.
+        </aside>
+      </section>
+      <!-- Diapositiva 5: Aplicaciones de la IA -->
+      <section>
+        <h2 class="text-4xl mb-6">Aplicaciones de la IA en la enseñanza</h2>
+        <div class="grid grid-cols-3 gap-4 text-sm">
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Planificación</h3>
+            <p>Guías, actividades, cuestionarios.</p>
+          </div>
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Materiales</h3>
+            <p>Cuentos, imágenes, videos educativos.</p>
+          </div>
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Personalización</h3>
+            <p>Ejercicios adaptados al nivel del estudiante.</p>
+          </div>
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Gamificación</h3>
+            <p>Juegos educativos y cuestionarios interactivos.</p>
+          </div>
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Retroalimentación</h3>
+            <p>Corrección automática de tareas.</p>
+          </div>
+          <div class="p-4 bg-blue-100 rounded">
+            <h3 class="text-xl">Motivación</h3>
+            <p>Videos y cuentos para captar atención.</p>
+          </div>
+        </div>
+        <aside class="notes">
+          Dé ejemplos: IA genera un cuento para enseñar fracciones en primaria o un mapa interactivo para historia en secundaria. Enfatice cómo la IA ahorra tiempo. Tiempo: 20 min.
+        </aside>
+      </section>
+
+
+      <!-- Diapositiva 6: Actividad práctica -->
+      <section class="activity">
+        <h2 class="text-4xl mb-6">VAMOS A ChatGPT</h2>
+         <aside class="notes">
+          Forme grupos y dé ejemplos de asignaturas (matemáticas, ciencias, lenguaje). Circule para ayudar. Pida a 2-3 grupos compartir y comente la claridad de los prompts. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 6.1: Actividad práctica -->
+      <section class="activity">
+        <h2 class="text-4xl mb-6">Actividad: Creando un recurso con IA</h2>
+        <p class="text-lg">En grupos de 3, diseñen un prompt para generar:</p>
+        <ul class="list-disc pl-6">
+          <li>Un recurso educativo (ej. cuento, cuestionario, infografía).</li>
+          <li>Especifiquen: Asignatura, nivel (primaria/secundaria), objetivo.</li>
+        </ul>
+        <p class="mt-4">Ejemplo: "Actúa como docente de primaria, crea un cuento corto para enseñar fracciones a estudiantes de 4to grado, usa lenguaje sencillo y un formato narrativo."</p>
+        <p class="mt-4 font-bold">Tiempo: 10 min. Compartan 1 prompt por grupo.</p>
+        <aside class="notes">
+          Forme grupos y dé ejemplos de asignaturas (matemáticas, ciencias, lenguaje). Circule para ayudar. Pida a 2-3 grupos compartir y comente la claridad de los prompts. Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 7: Pausa -->
+      <section class="bg-custom">
+        <h2 class="text-4xl mb-6">Pausa</h2>
+        <p class="text-2xl">Tomen un descanso de 10 minutos.</p>
+        <p class="text-lg mt-4">Regresaremos con demostraciones de herramientas de IA.</p>
+        <aside class="notes">
+          Indique dónde están los baños y refrigerios. Use este tiempo para charlar con los docentes y responder dudas informales. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      
+<!-- Diapositiva 7: Pausa -->
+      <section class="bg-custom">
+        <h2 class="text-4xl mb-6">Herramientas</h2>
+       <a href="https://padlet.com/williamchaparro/ia-y-educaci-n-qpc1o77dg4scw1ht" target="_blank">padlet</a><br>
+        https://padlet.com/williamchaparro/ia-y-educaci-n-qpc1o77dg4scw1ht
+        <aside class="notes">
+          Indique dónde están los baños y refrigerios. Use este tiempo para charlar con los docentes y responder dudas informales. Tiempo: 10 min.
+        </aside>
+      </section>
+      <!-- Diapositiva 9: Desafíos éticos -->
+      <section>
+        <h2 class="text-4xl mb-6">Desafíos éticos para estudiantes jóvenes</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <h3 class="text-2xl">Riesgos</h3>
+            <ul class="list-disc pl-6">
+              <li>Plagio: Copiar tareas generadas por IA</li>
+              <li>Dependencia: Menos esfuerzo propio</li>
+              <li>Privacidad: Uso de datos personales</li>
+              <li>Desigualdad: Acceso limitado a tecnología</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl">Soluciones</h3>
+            <ul class="list-disc pl-6">
+              <li>Enseñar a citar fuentes (sencillo)</li>
+              <li>Promover creatividad y análisis</li>
+              <li>Usar IA en clase con supervisión</li>
+              <li>Crear actividades inclusivas</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-lg">Enseñemos a los estudiantes a usar la IA con responsabilidad.</p>
+        <aside class="notes">
+          Ejemplo: Un estudiante copia un cuento de ChatGPT sin modificarlo. Pregunte: "¿Cómo enseñarían a sus alumnos a usar IA éticamente?" Tiempo: 15 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 10: Estrategias para el aula -->
+      <section>
+        <h2 class="text-4xl mb-6">Estrategias para el aula escolar</h2>
+        <ol class="text-lg list-decimal pl-6">
+          <li><strong>Capacitación:</strong> Pruebe una herramienta de IA (ej. ChatGPT).</li>
+          <li><strong>Actividades creativas:</strong> Cuentos, juegos, proyectos grupales.</li>
+          <li><strong>Reglas claras:</strong> Defina cuándo usar IA (ej. para ideas).</li>
+          <li><strong>Inclusión:</strong> Adapte la IA a recursos offline si es necesario.</li>
+          <li><strong>Motivación:</strong> Use IA para hacer clases divertidas.</li>
+        </ol>
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura38.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura31.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+      <!-- Diapositiva 10: Estrategias para el aula -->
+      <section>
+        <img src="Captura30.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura36.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura7.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura11.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura32.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura33.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura34.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura35.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <section>
+        <img src="Captura37.PNG"/>
+        
+        <p class="mt-4 text-lg">La IA es un pincel: los docentes pintan el cuadro.</p>
+        <aside class="notes">
+          Use la metáfora del pincel para inspirar. Pida a los docentes compartir una idea para usar IA en su asignatura. Tiempo: 10 min.
+        </aside>
+      </section>
+
+      <!-- Diapositiva 11: Cierre -->
+      <section class="bg-custom">
+        <h2 class="text-4xl mb-6">Cierre y reflexión</h2>
+        <p class="text-2xl">La IA hace las clases más dinámicas, pero el docente inspira el aprendizaje.</p>
+        <p class="text-lg mt-4">Compromiso: Usen una herramienta de IA esta semana.</p>
+        <p class="text-lg mt-4">Preguntas y comentarios finales.</p>
+        <aside class="notes">
+          Resuma: IA como apoyo, ética, creatividad. Responda preguntas y agradezca. Comparta un PDF con enlaces a herramientas (ChatGPT, Canva, etc.). Tiempo: 5 min.
+        </aside>
+      </section>
+    </div>
+  </div>
+
+  <!-- Reveal.js Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'slide',
+      slideNumber: true,
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      fragments: true,
+      pdfMaxPagesPerSlide: 1
+    });
+  </script>
+</body>
+</html>
